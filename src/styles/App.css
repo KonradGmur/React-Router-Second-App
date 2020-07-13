@@ -4,7 +4,6 @@ div.app {
   min-height: 100vh;
   width: 90%;
   margin: 0 auto;
-
   color: #222;
 }
 
@@ -35,5 +34,4 @@ footer {
   padding: 10px 0;
   text-align: center;
   text-transform: uppercase;
-  /* margin-bottom: 50px; */
 }
