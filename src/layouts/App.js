@@ -7,10 +7,6 @@ import Page from './Page';
 import Footer from './Footer';
 
 class App extends Component {
-  state = {
-
-  }
-
   render() {
     return (
       <Router>
@@ -22,13 +18,11 @@ class App extends Component {
             <aside>
               {<Navigation />}
             </aside>
-            <section className='page'>
+            <section className="page">
               {<Page />}
             </section>
           </main>
-          <footer>
-            {<Footer />}
-          </footer>
+          <footer>{<Footer />}</footer>
         </div>
       </Router>
     );
