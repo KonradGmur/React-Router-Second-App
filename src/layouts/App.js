@@ -7,15 +7,32 @@ import Page from './Page';
 import Footer from './Footer';
 
 class App extends Component {
-  state = { 
+  state = {
 
-   }
+  }
 
-  render() { 
-    return ( 
-      
-     );
+  render() {
+    return (
+      <Router>
+        <div className="App">
+          <header>
+            {<Header />}
+          </header>
+          <main>
+            <aside>
+              {<Navigation />}
+            </aside>
+            <section className='page'>
+              {<Page />}
+            </section>
+          </main>
+          <footer>
+            {<Footer />}
+          </footer>
+        </div>
+      </Router>
+    );
   }
 }
- 
+
 export default App;
